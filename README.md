@@ -23,16 +23,16 @@
 Below are the steps
 
 Fork the GitHub Repo and copy the link
-<p style="background-color: white; color: black">git clone </p> the paste the link
-<p style="background-color: white; color: black">cd </p> into both **front and back** and run <p style="background-color: white; color: black"> npm i</p>
+git clone and then paste the link
+cd into both **front and back** and run npm i
 create a <p> .env file </p> with the following configurations
-<li>
-  PORT = 3000
-  PG_USER = "postgres"
-  PG_HOST = "localhost"
-  PG_DATABASE = "ex"
-  PG_PASSWORD = "your-password"
+
+  PORT = 3000 <br>
+  PG_USER = "postgres" <br>
+  PG_HOST = "localhost" <br>
+  PG_DATABASE = "ex" <br>
+  PG_PASSWORD = "your-password" <br>
   PG_PORT = 5432
-</li>
+
 
 #FOLLOW ME 😍😍
