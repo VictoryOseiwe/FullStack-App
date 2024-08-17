@@ -20,6 +20,8 @@ export default function App() {
   //Set a state for my editing status i.e to show edit form or not
   const [editing, setEditing] = useState([]);
 
+  const date = new Date().getFullYear();
+
   //Handle form input changes and update formData state
   function handleChange(e) {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -136,6 +138,7 @@ export default function App() {
             )}
           </p>
         </div>
+        <footer>Copyright @victoryoseiwe {date}</footer>
       </div>
     </div>
   );
